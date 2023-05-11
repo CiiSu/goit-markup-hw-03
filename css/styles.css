@@ -1,0 +1,232 @@
+body {
+    font-family: "roboto", sans-serif;
+    font-style: normal;
+    background: #ffffff;
+    color: #212121;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.link {
+    color: #757575;
+}
+
+.link:hover {
+    color: #2196F3;
+}
+
+.navi {
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        color: #212121 ;
+}
+
+.navi:hover {
+    color: #2196F3
+}
+
+.link2 {
+    color: #FFFFFF
+}
+
+.link2:hover {
+    color: #2196F3
+}
+
+footer {
+        height: 252px;
+        left: 0px;
+        top: 2097px;
+        background: #2F303A;
+        
+}
+
+.logo {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.03em;
+        color: #2196F3;
+}
+
+.logo1 {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.03em;
+        color: #000000;
+}
+
+.logo2 {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+}
+
+.button-service {
+        position: absolute;
+        width: 200px;
+        height: 50px;
+        left: 700px;
+        top: 450px;
+        background: #2196F3;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 30px;
+        letter-spacing: 0.06em;
+        color: #FFFFFF;
+        cursor: pointer;
+}
+
+.buttons-portfolio {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0.03em;
+        background: #F5F4FA;
+        border-radius: 4px;
+        cursor: pointer;
+        color: #212121;
+        border:#F5F4FA
+       
+}
+
+.buttons-portfolio:hover {
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+        border-radius: 4px;
+        background: #2196F3;
+        color: #FFFFFF;
+}
+
+h1 {
+        position: absolute;
+        width: 696px;
+        height: 120px;
+        left: 452px;
+        top: 280px;
+        text-align: center;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 60px;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+    
+        color: #FFFFFF;;
+}
+
+h4 {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #212121;
+}
+
+.lorem {
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: #757575;
+}
+
+h2 {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        letter-spacing: 0.03em;
+        color: #212121;
+}
+
+
+.name-team {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.03em;
+        color: #212121;
+        text-align: center;
+}
+
+.jobs {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.03em;
+        color: #757575;
+        text-align: center;
+}
+
+.photo-portfolio {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 36px;
+        letter-spacing: 0.06em;
+        color: #212121;
+        margin-left: 24px;
+}
+
+.under-photo-portfolio {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        letter-spacing: 0.03em;
+        line-height: 1px;
+        color: #757575;
+        margin-left: 24px;
+
+}
+
+a {
+        text-decoration: none;
+}
+
+.solutions {
+        height: 600px;
+        left: 0px;
+        top: 80px;
+        background: #2F303A;
+}
+
+.our-team { 
+                background: #F5F4FA;
+}
+
+.frame-portfolio {
+        width: 370px;
+        height: 404px;
+        left: 215px;
+        top: 262px;
+        box-sizing: border-box;
+        background: #FFFFFF;
+        border: 1px solid #EEEEEE;
+}
+
+.frame-team {
+        width: 270px;
+        height: 368px;
+        left: 215px;
+        top: 1635px;
+        box-sizing: border-box;
+        background: #FFFFFF;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+}
+
+
+
