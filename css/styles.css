@@ -232,7 +232,6 @@ a {
 }
 
 .our-team {
-        width:1200px;
         background: #F5F4FA;
 }
 
@@ -259,7 +258,6 @@ a {
 
 .container {
         width: 1200px;
-        max-width: 100%;
         margin: 0 auto;
         
 }
@@ -271,6 +269,7 @@ a {
         border-bottom: solid 1px;
         border-color: var(--border-color);
 }
+
 
 .navigation {
         display: flex;
