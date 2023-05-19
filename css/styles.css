@@ -188,6 +188,7 @@ h2 {
         letter-spacing: 0.03em;
         color: var(--main-black);
         text-align: center;
+        padding-top: 30px;
 }
 
 .jobs {
@@ -197,6 +198,7 @@ h2 {
         letter-spacing: 0.03em;
         color: var(--main-grey);
         text-align: center;
+        padding-top: 10px;
 }
 
 .photo-portfolio {
@@ -265,16 +267,17 @@ a {
 
 .wrapper {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
         border-bottom: solid 1px;
         border-color: var(--border-color);
 }
 
 
+
 .navigation {
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         list-style-type: none;
         padding-top: 24px;
@@ -291,9 +294,17 @@ a {
 }
 
 .navi-link { 
+        display: flex;
         justify-content: space-between;
         align-items: center;
+        list-style-type: none;
+}
 
+.navi-link-portfolio {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style-type: none;
 }
 
 .kontakt-nav {
@@ -306,11 +317,22 @@ a {
         color: var(--main-grey);
 }
 
+.kontakt-nav-portfolio {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        gap: 50px;
+        margin-left: 250px;
+        color: var(--main-grey);
+}
+
+
 .lorem-index {
         display: flex;
         justify-content: space-between;
         list-style: none;
         gap: 30px;
+        padding-top: 104px;
 }
 
 .h4-lorem {
@@ -319,15 +341,6 @@ a {
 
 }
 
-.container-lorem {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        list-style-type: none;
-        padding-top: 104px;
-       
-
-}
 
 .photo-jobs-index {
         display: flex;
@@ -349,14 +362,12 @@ a {
         padding-bottom: 94px;
 }
 
-.footer-logo{
-       padding-top: 60px;
-       padding-left: 215px;
-       
+.footer-logo {
+        padding-top: 60px;
 }
 
 .footer-adress {
-        padding-top: 20px;   
+        padding-top: 20px;
 }
 
 .footer-link {
