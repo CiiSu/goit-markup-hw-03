@@ -100,6 +100,7 @@ footer {
         text-align: center;
         padding: 10px;
         width: 200px;
+        border: none;
 }
 
 .buttons-portfolio {
@@ -115,6 +116,7 @@ footer {
         border: #F5F4FA;
         text-align: center;
         padding: 6px 22px;
+        border: none;
 }
 
 
@@ -188,7 +190,7 @@ h2 {
         letter-spacing: 0.03em;
         color: var(--main-black);
         text-align: center;
-        padding-top: 30px;
+        padding-block: 30px 10px;
 }
 
 .jobs {
@@ -198,8 +200,10 @@ h2 {
         letter-spacing: 0.03em;
         color: var(--main-grey);
         text-align: center;
-        padding-top: 10px;
+        padding-block: 10px 30px;
 }
+
+
 
 .photo-portfolio {
         font-weight: 700;
@@ -208,6 +212,7 @@ h2 {
         letter-spacing: 0.06em;
         color: var(--main-black);
         margin-left: 24px;
+        padding-block: 20px 4px;
 }
 
 .under-photo-portfolio {
@@ -215,9 +220,9 @@ h2 {
         font-size: 16px;
         line-height: 30px;
         letter-spacing: 0.03em;
-        line-height: 1px;
         color: var(--main-grey);
         margin-left: 24px;
+        padding-block: 4px 20px;
 
 }
 
